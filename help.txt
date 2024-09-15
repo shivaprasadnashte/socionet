@@ -1,0 +1,15 @@
+Here is the list of API URLs:
+
+1. `POST http://localhost:8080/api/auth/register`
+2. `POST http://localhost:8080/api/auth/login`
+3. `GET http://localhost:8080/api/auth/user/me`
+4. `GET http://localhost:8080/api/friends/getmyfriends`
+5. `POST http://localhost:8080/api/friends/addfriend`
+6. `GET http://localhost:8080/api/friends/mutualfriends`
+7. `GET http://localhost:8080/api/friends/recommendfriends`
+8. `POST http://localhost:8080/api/friends/sendfriendrequest`
+9. `GET http://localhost:8080/api/friends/getfriendrequests`
+10. `POST http://localhost:8080/api/friends/acceptfriendrequest`
+11. `POST http://localhost:8080/api/friends/rejectfriendrequest`
+12. `GET http://localhost:8080/api/friends/searchusers?keyword=<search_query>`
+13. `DELETE http://localhost:8080/api/friends/unfrienduser`
